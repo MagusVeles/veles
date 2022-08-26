@@ -1,0 +1,48 @@
+/* cutive-mono-regular - latin */
+@font-face {
+  font-family: "Cutive Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../../public/fonts/cutive-mono-v14-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../../public/fonts/cutive-mono-v14-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* major-mono-display-regular - latin */
+@font-face {
+  font-family: "Major Mono Display";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../../public/fonts/major-mono-display-v12-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../../public/fonts/major-mono-display-v12-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* nova-mono-regular - latin */
+@font-face {
+  font-family: "Nova Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../../public/fonts/nova-mono-v18-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../../public/fonts/nova-mono-v18-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* syne-mono-regular - latin */
+@font-face {
+  font-family: "Syne Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../../public/fonts/syne-mono-v15-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../../public/fonts/syne-mono-v15-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* vt323-regular - latin */
+@font-face {
+  font-family: "VT323";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../../public/fonts/vt323-v17-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../../public/fonts/vt323-v17-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}

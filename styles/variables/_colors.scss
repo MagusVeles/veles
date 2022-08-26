@@ -1,0 +1,7 @@
+$black: #000;
+$light: #fff;
+
+$theme: rgb(0, 221, 0);
+$theme-light: lighten($theme, 20%);
+// $theme-subtle: transparent;  
+$theme-subtle: transparentize($theme, 0.3);  

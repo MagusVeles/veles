@@ -1,0 +1,42 @@
+.custom-input {
+    text-transform: uppercase;
+    background-color: transparent;
+    min-height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+
+    border: 0px;
+    color: inherit;
+    font-size: 50px;
+    box-shadow: none;
+    outline-width: 0px;
+    display: flex;
+
+    border-bottom: 2px solid $theme;
+    position: relative;
+
+    input {
+        position: absolute;
+        z-index: 10;
+        opacity: 0;
+        width: 100%;
+        min-height: 100%;
+    }
+
+    &__value {
+        display: inline-flex;
+        min-height: inherit;
+        &::after {
+            content: "";
+            display: block;
+            width: 20px;
+            min-height: 100%;
+            background-color: $theme;
+        }
+        &::before {
+            content: ">"
+        }
+    }
+}
